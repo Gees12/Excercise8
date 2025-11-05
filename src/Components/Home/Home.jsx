@@ -1,5 +1,6 @@
-import Search from "./Search/search.jsx";
-import CardInfo from "./Card-Info/Card-Info.jsx";
+import Search from "./Search";
+import CardInfo from "./CardInfo/CardInfo";
+
 export default function Home() {
   return (
     <section className="p-6 text-center">
