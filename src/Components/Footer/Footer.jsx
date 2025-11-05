@@ -1,8 +1,12 @@
-export default function Footer({ title }) {
+
+import React from "react";
+
+function Footer({ text }) {
   return (
-    <div className="text-center bg-gray-800 text-white w-full p-3 mt-4  shadow">
-      {title}
-      <p>© 2024 Tech Evolution - Built with React & Vite</p>
-    </div>
+    <footer className="w-full bg-purple-700 text-white py-4 mt-10 text-center">
+      <p className="text-sm font-medium">{text}</p>
+    </footer>
   );
 }
+
+export default Footer;

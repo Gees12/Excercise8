@@ -1,5 +1,6 @@
-import Logo from "./Logo";
-import Generations from "./Generation/Generation";
+
+import Logo from "./Logo/Logo";
+
 
 export default function Header() {
   return (

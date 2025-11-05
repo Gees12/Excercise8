@@ -7,7 +7,6 @@ export default function Home() {
       <h2 className="text-2xl font-semibold mb-4">Welcome to My Apps</h2>
       <Search />
       <CardInfo />
-      <Home />
     </section>
   );
 }
